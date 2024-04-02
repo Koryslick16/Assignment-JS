@@ -1,16 +1,16 @@
 // Validate Triangle Sides
 
 
-let length1 = 17
-let length2 = 10
-let length3 = 15
+let side1 = 17
+let side2 = 10
+let side3 = 15
 
 
 
-if (length1 <=0 || length2 <=0 || length3 <=0){
+if (side1 <=0 || side2 <=0 || side3 <=0){
     console.log("Invalid Side Lengths. All sides must be greater than zero.");
 }
-else if(length1 + length2 > length3 && length1 + lenghth3 > length2 && length2 + length3 > length1){
+else if(side1 + side2 > side3 && side1 + side3 > side2 && side2 + side3 > side1){
     console.log("Triangle can be formed with these lengths.");
 }
 else{
