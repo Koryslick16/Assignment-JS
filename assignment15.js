@@ -13,8 +13,8 @@ else if (income >= '$50,000' && income <= '$80,000' && creditScore >= 700 && Out
     console.log("Reduced interest rate offered.");
 }
 else if(income> '$30,000' && income < '$50,000' && creditScore > 650 && Outstandingdebt > 3){
-    console.log("Considered");
+    console.log("Considered.");
 }
 else{
-    console.log("Loan Rejected");
+    console.log("Loan Rejected!");
 }
