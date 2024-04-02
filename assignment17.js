@@ -14,5 +14,5 @@ else if(guess > secretNumber){
     console.log("Sorry, your guess is too high. Try again!");
 }
 else{
-    console.log("Sorry, your guess is too low. Try again");
+    console.log("Sorry, your guess is too low. Try again!");
 }
